@@ -1,4 +1,5 @@
 function theBeatlesPlay(musicians, instruments) {
+<<<<<<< HEAD
   var array = [];
   for (var i = 0; i < musicians.length; i++) {
     array.push(`${musicians[i]} plays ${instruments[i]}`);
@@ -23,3 +24,12 @@ function iLoveTheBeatles(number) {
   } while (number < 15);
   return array
 }
+=======
+  var array = {}
+  for (var i = 0; i < musicians.length; i++) {
+    var string = `${musicians[i]} plays ${instruments[i]}`;
+    array.push(string);
+  }
+  return array
+}
+>>>>>>> cc900ee1129c25193f8b2773e06efdceb4db85d9
